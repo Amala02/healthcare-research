@@ -1,0 +1,55 @@
+.sub-page1{
+    text-align: center;
+}
+
+
+
+#Header{
+    text-align:center;
+    background-color: #3D246C;
+    color: #FFDBC3;
+   
+}
+
+body{
+    background-color: #9F91CC;
+}
+
+#advances{
+    
+    background-color: #FFDBC3;
+    padding:20px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+    width:300px;
+    margin-top: 20px;
+    text-align: center;
+    background-image:linear-gradient( rgba(35, 35, 39, 0.52), rgba(217, 210, 215, 0.73)),url("advance-jpg.jpg");
+    z-index: 5;
+}
+
+#contact{
+    background-image:linear-gradient( rgba(35, 35, 39, 0.52), rgba(217, 210, 215, 0.73)), url("contact-us-img.jpg");
+    padding:20px;
+    overflow: hidden;
+    display:inline-block;
+    width:300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+   
+    background-color:#3D246C;
+    padding-bottom: 20px;
+    margin-top: 100px;
+   
+  height: 350px;
+  justify-content: center;
+  
+  
+  
+}
+
