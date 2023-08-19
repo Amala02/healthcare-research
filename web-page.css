@@ -1,18 +1,25 @@
+@font-face {
+    font-family: storica;
+    src: url(Storica-Regular.ttf);
+}
 .sub-page1{
     text-align: center;
+    font-family: storica;
+    font-size: 14px;
 }
 
 
 
 #Header{
     text-align:center;
-    background-color: #3D246C;
+    background-color: #3d246cb5;
     color: #FFDBC3;
-   
+    text-shadow: #3d246cb5;
+    
 }
 
 body{
-    background-color: #9F91CC;
+    background-color: #9f91cc5e;
 }
 
 #advances{
@@ -28,9 +35,14 @@ body{
     background-image:linear-gradient( rgba(35, 35, 39, 0.957), rgba(217, 210, 215, 0.317)),url("advance-jpg.jpg");
     z-index: 5;
     color:#FFDBC3;
-    box-shadow:  0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 17px 18px 37px 9px rgba(0,0,0,0.75);
+    
 }
-
+#advances:hover{
+    
+    transform: translateY(-15px);
+    transition: 500ms;
+}
 .contact{
     background-image:linear-gradient( rgba(35, 35, 39, 0.925), rgba(217, 210, 215, 0.317)), url("contact-us-img.jpg");
     padding:20px;
@@ -39,11 +51,16 @@ body{
     width:300px;
     margin-top: 20px;
     text-align: center;
-    box-shadow:  0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:  17px 18px 37px 9px rgba(0,0,0,0.75);
 
     font-size: 32px;
 }
 
+.contact:hover{
+    transform: translateY(-15px);
+    transition: 500ms;
+    
+}
 .flex-container{
     display: flex;
    
