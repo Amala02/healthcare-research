@@ -2,24 +2,46 @@
     font-family: storica;
     src: url(Storica-Regular.ttf);
 }
+@font-face {
+    font-family: typographica;
+    src: url(Typographica-Blp5.ttf);
+}
+@font-face{
+    font-family: caviar;
+    src: url(CaviarDreams-Wr2O.ttf);
+}
+@font-face {
+    font-family: edition;
+    src: url(Edition-BxnV.ttf);
+}
 .sub-page1{
-    text-align: center;
+    
     font-family: storica;
     font-size: 14px;
 }
 
 
-
-#Header{
-    text-align:center;
-    background-color: #3d246cb5;
-    color: #FFDBC3;
-    text-shadow: #3d246cb5;
-    
+title:hover{
+    background-size: 0 3px, 100% 3px;
 }
 
-body{
-    background-color: #9f91cc5e;
+#header-txt{
+    text-align:center;
+     font-size: 95px;
+  
+  background-image: linear-gradient(to bottom left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: edition;
+  letter-spacing: 1px;
+  
+}
+
+#header-txt:hover{
+    letter-spacing: 2px;
+    text-shadow: #553c9a;
+    transition: 500ms;
 }
 
 #advances{
@@ -36,12 +58,16 @@ body{
     z-index: 5;
     color:#FFDBC3;
     box-shadow: 17px 18px 37px 9px rgba(0,0,0,0.75);
-    
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+    transition: 500ms;
 }
 #advances:hover{
-    
+    background-image:linear-gradient( rgba(0, 0, 3, 0.957), rgba(20, 19, 20, 0.744)),url("advance-jpg.jpg");
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(5, 63, 77);
     transform: translateY(-15px);
-    transition: 500ms;
+   
 }
 .contact{
     background-image:linear-gradient( rgba(35, 35, 39, 0.925), rgba(217, 210, 215, 0.317)), url("contact-us-img.jpg");
@@ -52,14 +78,18 @@ body{
     margin-top: 20px;
     text-align: center;
     box-shadow:  17px 18px 37px 9px rgba(0,0,0,0.75);
-
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
     font-size: 32px;
+    transition: 500ms;
+    
 }
 
 .contact:hover{
     transform: translateY(-15px);
-    transition: 500ms;
-    
+    background-image:linear-gradient( rgba(0, 0, 3, 0.957), rgba(20, 19, 20, 0.744)),url("contact-us-img.jpg");
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(5, 63, 77);
 }
 .flex-container{
     display: flex;
@@ -82,4 +112,9 @@ body{
 
 #explore-button{
  margin-top:30px;
+}
+
+#map{
+    box-shadow:  17px 18px 37px 9px rgba(0,0,0,0.75);
+    background-color: none;
 }
