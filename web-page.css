@@ -29,19 +29,20 @@ title:hover{
     text-align:center;
      font-size: 95px;
   
-  background-image: linear-gradient(to bottom left, #553c9a, #b393d3);
+  background-image: linear-gradient(to bottom left, #461959, #9d74ae);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-family: edition;
   letter-spacing: 1px;
+  transition: 500ms;
   
 }
 
 #header-txt:hover{
     letter-spacing: 2px;
     text-shadow: #553c9a;
-    transition: 500ms;
+    
 }
 
 #advances{
@@ -54,9 +55,9 @@ title:hover{
     width:300px;
     margin-top: 20px;
     text-align: center;
-    background-image:linear-gradient( rgba(35, 35, 39, 0.957), rgba(217, 210, 215, 0.317)),url("advance-jpg.jpg");
+    background-image:linear-gradient(#804f95c0, #875a9c3e),url("advance-jpg.jpg");
     z-index: 5;
-    color:#FFDBC3;
+    color:#AED8CC;
     box-shadow: 17px 18px 37px 9px rgba(0,0,0,0.75);
     background-repeat:no-repeat ;
     background-size: 100% 100%;
@@ -70,7 +71,7 @@ title:hover{
    
 }
 .contact{
-    background-image:linear-gradient( rgba(35, 35, 39, 0.925), rgba(217, 210, 215, 0.317)), url("contact-us-img.jpg");
+    background-image:linear-gradient(#7a3d94c0, #875a9c3e),url("contact-us-img.jpg");
     padding:20px;
     overflow: hidden;
     display:inline-block;
@@ -107,7 +108,7 @@ title:hover{
 
 #contact{
     margin-top:60px;
-    color:#FFDBC3;
+    color:#AED8CC;
 }
 
 #explore-button{
