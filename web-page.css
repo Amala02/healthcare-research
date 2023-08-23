@@ -1,18 +1,18 @@
 @font-face {
     font-family: storica;
-    src: url(Storica-Regular.ttf);
+    src: url(fonts/Storica-Regular.ttf);
 }
 @font-face {
     font-family: typographica;
-    src: url(Typographica-Blp5.ttf);
+    src: url(fonts/Typographica-Blp5.ttf);
 }
 @font-face{
     font-family: caviar;
-    src: url(CaviarDreams-Wr2O.ttf);
+    src: url(fonts/CaviarDreams-Wr2O.ttf);
 }
 @font-face {
     font-family: edition;
-    src: url(Edition-BxnV.ttf);
+    src: url(fonts/Edition-BxnV.ttf);
 }
 .sub-page1{
     
@@ -20,6 +20,18 @@
     font-size: 14px;
 }
 
+#Header{
+                
+    font-size: 38px;
+    
+    
+}
+#advance-txt{
+    margin-top: 60px;
+    bottom:50px;
+    font-family:caviar;
+    font-size: 32px;
+}
 
 title:hover{
     background-size: 0 3px, 100% 3px;
@@ -55,7 +67,7 @@ title:hover{
     width:300px;
     margin-top: 20px;
     text-align: center;
-    background-image:linear-gradient(#804f95c0, #875a9c3e),url("advance-jpg.jpg");
+    background-image:linear-gradient(#804f95c0, #875a9c3e),url("images/advance-jpg.jpg");
     z-index: 5;
     color:#AED8CC;
     box-shadow: 17px 18px 37px 9px rgba(0,0,0,0.75);
@@ -64,14 +76,14 @@ title:hover{
     transition: 500ms;
 }
 #advances:hover{
-    background-image:linear-gradient( rgba(0, 0, 3, 0.957), rgba(20, 19, 20, 0.744)),url("advance-jpg.jpg");
+    background-image:linear-gradient( rgba(0, 0, 3, 0.957), rgba(20, 19, 20, 0.744)),url("images/advance-jpg.jpg");
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(5, 63, 77);
     transform: translateY(-15px);
-   
+    
 }
 .contact{
-    background-image:linear-gradient(#7a3d94c0, #875a9c3e),url("contact-us-img.jpg");
+    background-image:linear-gradient(#7a3d94c0, #875a9c3e),url("images/contact-us-img.jpg");
     padding:20px;
     overflow: hidden;
     display:inline-block;
@@ -88,7 +100,7 @@ title:hover{
 
 .contact:hover{
     transform: translateY(-15px);
-    background-image:linear-gradient( rgba(0, 0, 3, 0.957), rgba(20, 19, 20, 0.744)),url("contact-us-img.jpg");
+    background-image:linear-gradient( rgba(0, 0, 3, 0.957), rgba(20, 19, 20, 0.744)),url("images/contact-us-img.jpg");
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(5, 63, 77);
 }
@@ -112,10 +124,107 @@ title:hover{
 }
 
 #explore-button{
- margin-top:30px;
+  
+    padding: .375em 1.125em;
+    margin-top: 10px;
+    font-family: caviar;
+    
 }
 
 #map{
     box-shadow:  17px 18px 37px 9px rgba(0,0,0,0.75);
     background-color: none;
+}
+
+@media only screen and (max-width: 850px) {
+    #header-txt{
+     text-align:center;
+     font-size: 55px;
+      
+      background-image: linear-gradient(to bottom left, #461959, #9d74ae);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      font-family: edition;
+      letter-spacing: 1px;
+      transition: 500ms;
+      
+    }
+
+
+    .contact{
+        background-image:linear-gradient(#7a3d94c0, #875a9c3e),url("images/contact-us-img.jpg");
+        padding:20px;
+        overflow: hidden;
+        display:inline-block;
+        width:300px;
+        height:400px;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow:  17px 18px 37px 9px rgba(0,0,0,0.75);
+        background-repeat:no-repeat ;
+        background-size: 100% 100%;
+        font-size: 22px;
+        transition: 500ms;
+        
+    }
+
+    #advances{
+    
+        background-color: #FFDBC3;
+        padding:20px;
+        overflow: hidden;
+        display: inline-block;
+        margin-right: 20px;
+        width:300px;
+        height:400px;
+        margin-top: 20px;
+        text-align: center;
+        background-image:linear-gradient(#804f95c0, #875a9c3e),url("images/advance-jpg.jpg");
+        z-index: 5;
+        color:#AED8CC;
+        box-shadow: 17px 18px 37px 9px rgba(0,0,0,0.75);
+        background-repeat:no-repeat ;
+        background-size: 100% 100%;
+        transition: 500ms;
+    }
+
+    .flex-container{
+        display: flex;
+        align-items: center;
+    
+        flex-direction: column;
+        padding-bottom: 20px;
+        margin-top: 100px;
+       
+      height: 800px;
+      justify-content: center;
+      
+      
+      
+    }
+  }
+
+
+
+
+#cha-body{
+    background: linear-gradient(#d3c7d1a0,#a92894a0,#55bacba0);
+    background-repeat: no-repeat; background-size:cover;
+     background-attachment: fixed;
+    min-height:100%;
+  
+}
+
+#contact-button{
+    padding: .375em 1.125em;
+    margin-top: 10px;
+    font-family: caviar;
+}
+
+#back{
+    padding: .375em 1.125em;
+    margin-top: 10px;
+    font-family: caviar;
+    border-radius: 20px 20px 20px 20px;
 }

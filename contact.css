@@ -1,0 +1,48 @@
+@font-face {
+    font-family: edition;
+    src: url(fonts/Edition-BxnV.ttf);
+}
+
+
+
+.flex-container{
+    
+    display: flex;
+    padding-bottom: 20px;
+    margin-top: 100px;
+   
+  height: 350px;
+  justify-content: center;
+}
+
+
+
+#contact-head{
+    justify-self: center;
+    text-align: center;
+    animation: stretch 3s ease infinite alternate;
+    font-family: edition;
+    padding-right: 30px;
+}
+
+@keyframes stretch{
+    from{font-size:medium;}
+    to{font-size: larger;}
+}
+
+#eye-icon{
+    float:left;
+  
+    margin-right: 60px;
+}
+#github-icon{
+    float:left;
+    margin-top:50px;
+    margin-right: 60px;
+}
+#linkedin-icon{
+    float:left;
+    margin-top:50px;
+    margin-right: 60px;
+}
+
