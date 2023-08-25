@@ -3,7 +3,10 @@
     src: url(fonts/Edition-BxnV.ttf);
 }
 
-
+@font-face {
+    font-family: caviar;
+    src: url(fonts/CaviarDreams-Wr2O.ttf);
+}
 
 .flex-container{
     
@@ -44,5 +47,35 @@
     float:left;
     margin-top:50px;
     margin-right: 60px;
+}
+
+#walk-icon{
+    float:right;
+}
+
+
+/* CSS */
+#home-button{
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+
+  font-family: caviar;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 8px 15px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  float:right;
+  margin-left: 20px;
+  margin-top: 25px;
+
 }
 

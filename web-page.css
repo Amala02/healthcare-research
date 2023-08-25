@@ -14,10 +14,10 @@
     font-family: edition;
     src: url(fonts/Edition-BxnV.ttf);
 }
-.sub-page1{
+.sub-page1#title{
     
-    font-family: storica;
-    font-size: 14px;
+    font-family: caviar;
+    font-size: 60px;
 }
 
 #Header{
@@ -48,6 +48,7 @@ title:hover{
   font-family: edition;
   letter-spacing: 1px;
   transition: 500ms;
+
   
 }
 
@@ -132,8 +133,9 @@ title:hover{
 }
 
 #map{
-    box-shadow:  17px 18px 37px 9px rgba(0,0,0,0.75);
+    box-shadow:  17px 18px 37px 9px rgba(255, 255, 255, 0.75);
     background-color: none;
+    animation: fadeIn ease 3s;
 }
 
 @media only screen and (max-width: 850px) {
@@ -209,7 +211,7 @@ title:hover{
 
 
 #cha-body{
-    background: linear-gradient(#d3c7d1a0,#a92894a0,#55bacba0);
+    background: linear-gradient(#d3c7d171,#a9289463,#55b9cb73);
     background-repeat: no-repeat; background-size:cover;
      background-attachment: fixed;
     min-height:100%;
@@ -227,4 +229,18 @@ title:hover{
     margin-top: 10px;
     font-family: caviar;
     border-radius: 20px 20px 20px 20px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.sub-page1 #title{
+    animation: fadeIn ease 5s;
+    color: white;
+}
+
+.sub-page1{
+    animation: fadeIn ease 7s;
 }
