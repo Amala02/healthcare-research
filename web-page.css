@@ -141,7 +141,7 @@ title:hover{
 @media only screen and (max-width: 850px) {
     #header-txt{
      text-align:center;
-     font-size: 55px;
+     font-size: 30px;
       
       background-image: linear-gradient(to bottom left, #461959, #9d74ae);
       color: transparent;
@@ -201,11 +201,35 @@ title:hover{
        
       height: 800px;
       justify-content: center;
-      
-      
-      
     }
-  }
+      #Header{
+                
+       max-width:100% ;
+       line-height: 40px;
+       font-size: 20px;
+  overflow: hidden;
+    
+      }
+  .sub-page1#title{
+    
+    font-family: caviar;
+    font-size: 30px;
+
+    }
+    #map{
+        box-shadow:  17px 18px 37px 9px rgba(255, 255, 255, 0.75);
+        background-color: none;
+        animation: fadeIn ease 3s;
+        max-height:500px;
+        max-width:500px;
+        object-fit: contain;
+        margin-top: 50px;
+        float: right;
+        overflow:visible;
+  
+    }
+    }
+  
 
 
 
