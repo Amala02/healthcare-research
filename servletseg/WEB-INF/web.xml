@@ -1,0 +1,18 @@
+<web-app>
+ <servlet>
+ <servlet-name>db_login</servlet-name>
+ <servlet-class>db_login</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>db_login</servlet-name>
+ <url-pattern>/db_login</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>accessdb</servlet-name>
+ <servlet-class>accessdb</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>accessdb</servlet-name>
+ <url-pattern>/accessdb</url-pattern>
+ </servlet-mapping>
+</web-app>
